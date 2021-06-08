@@ -18,12 +18,11 @@ class _TrendingState extends State<Trending>
           height: 100,
           child: ListView.separated(
             separatorBuilder: (context, index) => Divider(height: 1),
+            scrollDirection: Axis.horizontal,
             shrinkWrap: true,
             itemCount: 10,
-            scrollDirection: Axis.horizontal,
             itemBuilder: (context, index) {
               return Container(
-                height: 100,
                 width: 150,
                 margin: EdgeInsets.symmetric(horizontal: 4),
                 color: Colors.blue[50],
