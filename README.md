@@ -6,7 +6,7 @@ Steps to reproduce
 
 - Create a TabBar with two Tabs and TabBarViews
 - Create on any of the TabBarViews a horizontal scrollable list
-- Scroll with two fingers horizontally
+- Scroll with two fingers horizontally over the lists
 
 
 Result
