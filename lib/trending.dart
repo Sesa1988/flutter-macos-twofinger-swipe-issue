@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class Dashboard extends StatefulWidget {
+class Trending extends StatefulWidget {
   @override
-  _DashboardState createState() => _DashboardState();
+  _TrendingState createState() => _TrendingState();
 }
 
-class _DashboardState extends State<Dashboard>
+class _TrendingState extends State<Trending>
     with AutomaticKeepAliveClientMixin {
   @override
   Widget build(BuildContext context) {
@@ -27,7 +27,7 @@ class _DashboardState extends State<Dashboard>
                 width: 150,
                 margin: EdgeInsets.symmetric(horizontal: 4),
                 color: Colors.blue[50],
-                child: Center(child: Text('Market: ${index.toString()}')),
+                child: Center(child: Text('Trending: ${index.toString()}')),
               );
             },
           ),

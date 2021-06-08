@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:twofingerswipeissue/dashboard.dart';
+import 'package:twofingerswipeissue/trending.dart';
 import 'package:twofingerswipeissue/market.dart';
 import 'package:twofingerswipeissue/market_appbar.dart';
 
@@ -39,7 +39,7 @@ class _MyHomePageState extends State<MyHomePage> {
           body: TabBarView(
             children: [
               Market(),
-              Dashboard(),
+              Trending(),
             ],
           ),
         ),
